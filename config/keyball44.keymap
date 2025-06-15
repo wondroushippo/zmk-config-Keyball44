@@ -198,7 +198,7 @@
 &kp TAB               &kp Q           &kp W        &kp E                &kp R        &kp T                   &kp Y      &kp U  &kp I      &kp O    &kp P      &kp MINUS
 &mt LCTRL ESCAPE      &kp A           &kp S        &kp D                &kp F        &kp G                   &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
 &kp LEFT_SHIFT        &kp Z           &kp X        &kp C                &kp V        &kp B                   &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
-&kp LS(LA(LEFT_GUI))  &lm 2 LS(LALT)  &lt 1 ENTER  &mt LCTRL BACKSPACE  &lt 2 ENTER                          &lt 2 ENTER  &kp SPACE                           &mo 5
+&kp LS(LA(LEFT_GUI))  &lm 2 LS(LALT)  &lt 1 ENTER  &mt LCTRL BACKSPACE  &lt 2 ENTER                          &lt 2 ENTER  &kp SPACE                           &mo 4
             >;
         };
 
