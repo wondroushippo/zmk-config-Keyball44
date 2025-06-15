@@ -42,9 +42,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SHORT}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
-  - NUMPAD
+  - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
   - $$mdi:keyboard-space$$
-  - $$mdi:backspace-reverse-outline$$
+  - MOUSE
   SHORT:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -221,8 +221,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - SNIPE
-  - {t: SCROLL, type: held}
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
+  - {t: SCROLL, type: held alternate}
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   SCROLL:
@@ -316,9 +316,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
 combos:
-- p: [10, 11]
+- p: [10, 11, 6, 7]
   k: $$mdi:progress-download$$
-- p: [0, 1]
+- p: [0, 1, 4, 5]
   k: $$mdi:progress-download$$
 - p: [16, 28]
   k: $$mdi:apple-keyboard-option$$
@@ -356,3 +356,5 @@ combos:
 - p: [5, 17]
   k: '*'
   l: [NUMPAD]
+- p: [9, 21]
+  k: {t: '=', s: +}
