@@ -126,7 +126,7 @@ layers:
   - Sft+{
   - Sft+}
   - {t: '`', s: '~'}
-  - {t: \, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - +
   - {t: '=', s: +}
   - FUN
@@ -136,7 +136,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
-  - out
+  - OUT TOG
   - F1
   - F2
   - F3
