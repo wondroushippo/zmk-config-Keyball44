@@ -22,7 +22,7 @@
 
 &mt {
     tapping-term-ms = <200>;
-    flavor = "tap-preferred";
+    flavor = "hold-preferred";
     quick-tap-ms = <150>;
 };
 
@@ -214,7 +214,7 @@
             label = "SCROLL";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &tog 4  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
             >;
@@ -225,7 +225,7 @@
             bindings = <
 &bootloader  &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
+&trans       &tog 4  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &trans  &trans              &mkp RCLK  &mkp LCLK                                  &trans
             >;
         };
