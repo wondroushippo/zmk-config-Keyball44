@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -176,10 +177,10 @@
         numpad_layer {
             label = "NUMPAD";
             bindings = <
-&trans    &kp TAB    &kp N7  &kp N8  &kp N9  &kp FSLH               &kp HOME  &kp PG_DN  &kp PG_UP     &kp END       &kp LS(TILDE)  &trans
+&trans    &kp TAB    &kp N7  &kp N8  &kp N9  &kp FSLH               &kp HOME  &kp PG_DN  &kp PG_UP     &kp END       &kp LS(TILDE)  &kp DEL
 &trans    &kp N0     &kp N4  &kp N5  &kp N6  &kp DOT                &kp LEFT  &kp DOWN   &kp UP        &kp RIGHT     &kp LA(MINUS)  &kp PIPE
 &trans    &kp RET    &kp N1  &kp N2  &kp N3  &kp MINUS              &kp LBKT  &kp RBKT   &kp LS(LBRC)  &kp LS(RBRC)  &kp GRAVE      &mt RSHFT NON_US_BACKSLASH
-&kp PLUS  &kp EQUAL  &mo 3   &trans  &trans                 &trans  &trans                                                          &trans
+&kp PLUS  &kp EQUAL  &mo 3   &trans  &trans                 &trans  &trans                                                          &mo 4
             >;
         };
 
