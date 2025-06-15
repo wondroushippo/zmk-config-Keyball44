@@ -183,17 +183,17 @@
         numpad_layer {
             label = "NUMPAD";
             bindings = <
-&trans    &kp TAB    &kp N7  &kp N8  &kp N9  &kp FSLH               &kp HOME  &kp PG_DN  &kp PG_UP     &kp END       &kp LS(TILDE)  &kp DEL
-&trans    &kp N0     &kp N4  &kp N5  &kp N6  &kp DOT                &kp LEFT  &kp DOWN   &kp UP        &kp RIGHT     &kp LA(MINUS)  &kp PIPE
-&trans    &kp RET    &kp N1  &kp N2  &kp N3  &kp MINUS              &kp LBKT  &kp RBKT   &kp LS(LBRC)  &kp LS(RBRC)  &kp GRAVE      &mt RSHFT NON_US_BACKSLASH
-&kp PLUS  &kp EQUAL  &mo 3   &trans  &trans                 &trans  &trans                                                          &trans
+&kp KP_NLCK    &kp TAB    &kp N7  &kp N8  &kp N9  &kp FSLH               &kp HOME  &kp PG_DN  &kp PG_UP     &kp END       &kp LS(TILDE)  &kp DEL
+&trans         &kp N0     &kp N4  &kp N5  &kp N6  &kp DOT                &kp LEFT  &kp DOWN   &kp UP        &kp RIGHT     &kp LA(MINUS)  &kp PIPE
+&trans         &kp RET    &kp N1  &kp N2  &kp N3  &kp MINUS              &kp LBKT  &kp RBKT   &kp LS(LBRC)  &kp LS(RBRC)  &kp GRAVE      &mt RSHFT NON_US_BACKSLASH
+&kp PLUS       &kp EQUAL  &mo 3   &trans  &trans                 &trans  &trans                                                          &trans
             >;
         };
 
         function_layer {
             label = "FUN";
             bindings = <
-&kp KP_NUMLOCK  &kp F1         &kp F2         &kp F3         &kp F4         &kp F5                     &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp out         &kp F1         &kp F2         &kp F3         &kp F4         &kp F5                     &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &kp CAPS        &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4               &trans  &trans  &trans  &trans  &trans   &kp F12
 &bt BT_CLR      &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4              &trans  &trans  &trans  &trans  &trans   &trans
 &trans          &trans         &trans         &trans         &trans                            &trans  &trans                                   &trans
