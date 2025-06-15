@@ -38,7 +38,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Sft+Alt+$$mdi:apple-keyboard-command$$
-  - '&wsl2'
+  - '&lm 2 LS(LALT)'
   - {t: '$$mdi:keyboard-return$$', h: SHORT}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
