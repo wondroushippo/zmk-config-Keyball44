@@ -78,12 +78,12 @@
         };
 
         number_layer {
-            label = "NUM";
+            label = "SHORT";
             bindings = <
-&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none   &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                     &none         &none         &none         &none         &none         &none
-&none   &none         &none         &none         &none         &none                     &none         &none         &trans        &trans        &none         &none
-&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                &trans
+&trans                    &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5                &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
+&trans                    &kp EXCLAMATION    &kp AT_SIGN        &kp HASH       &kp DOLLAR     &kp PERCENT                 &kp CARET       &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&mt LEFT_SHIFT LA(LC(V))  &kp LS(LA(LC(Z)))  &kp LS(LC(LA(X)))  &kp LC(LA(M))  &kp LC(LS(V))  &kp LA(LS(N5))              &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp F13       &kp LC(LA(LS(V)))     &kp BACKSLASH          &mt RSHFT BACKSLASH
+&trans                    &trans             &trans             &trans         &trans                             &trans  &trans                                                                                      &trans
             >;
         };
 
