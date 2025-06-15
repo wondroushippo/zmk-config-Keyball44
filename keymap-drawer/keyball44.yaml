@@ -44,7 +44,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
   - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
   - $$mdi:keyboard-space$$
-  - MOUSE
+  - SCROLL
   SHORT:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -221,8 +221,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - SNIPE
-  - {t: SCROLL, type: held alternate}
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
+  - {t: SCROLL, type: held}
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   SCROLL:
@@ -240,7 +240,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: MOUSE, h: toggle}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -266,8 +266,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   SNIPE:
