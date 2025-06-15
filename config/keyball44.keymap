@@ -186,7 +186,7 @@
 &trans    &kp TAB    &kp N7  &kp N8  &kp N9  &kp FSLH               &kp HOME  &kp PG_DN  &kp PG_UP     &kp END       &kp LS(TILDE)  &kp DEL
 &trans    &kp N0     &kp N4  &kp N5  &kp N6  &kp DOT                &kp LEFT  &kp DOWN   &kp UP        &kp RIGHT     &kp LA(MINUS)  &kp PIPE
 &trans    &kp RET    &kp N1  &kp N2  &kp N3  &kp MINUS              &kp LBKT  &kp RBKT   &kp LS(LBRC)  &kp LS(RBRC)  &kp GRAVE      &mt RSHFT NON_US_BACKSLASH
-&kp PLUS  &kp EQUAL  &mo 3   &trans  &trans                 &trans  &trans                                                          &mo 4
+&kp PLUS  &kp EQUAL  &mo 3   &trans  &trans                 &trans  &trans                                                          &trans
             >;
         };
 
@@ -203,7 +203,7 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &trans                   &trans        &trans     &trans     &trans        &trans        &trans
+&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &trans                   &trans        &trans     &trans     &trans        &trans        &to 0
 &trans  &tog 5     &mo 5      &mkp MB2         &mkp MB1     &mkp MB3                 &kp LEFT_GUI  &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
 &trans  &tog 6     &mo 6      &kp LC(LS(TAB))  &kp LC(TAB)  &trans                   &trans        &trans     &trans     &trans        &trans        &trans
 &trans  &trans     &trans     &mo 6            &mo 5                      &mkp RCLK  &mkp LCLK                                                       &trans
@@ -214,7 +214,7 @@
             label = "SCROLL";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &tog 4  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &tog 5  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
             >;
@@ -225,7 +225,7 @@
             bindings = <
 &bootloader  &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
-&trans       &tog 4  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
+&trans       &tog 6  &trans  &trans  &trans  &trans                 &trans     &trans  &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &trans  &trans              &mkp RCLK  &mkp LCLK                                  &trans
             >;
         };
