@@ -1,3 +1,13 @@
+Carter's Notes:
+
+Need to make these two changes to the keymap:
+
+Add in:
+&nice_view_spi { cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>; };
+
+Remove: 
+delete this line #include <dt-bindings/zmk/pointing.h>
+
 This keeb created by a group of people who loves keyball.
 
 Special Thanks to: <br>
