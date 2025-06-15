@@ -62,6 +62,93 @@
             bindings = <&bootloader>;
             key-positions = <0 1>;
         };
+
+        ALT_LEFT {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <16 28>;
+        };
+
+        GUI_LEFT {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <27 15>;
+        };
+
+        CTRL_LEFT {
+            bindings = <&mt LCTRL ESCAPE>;
+            key-positions = <14 26>;
+        };
+
+        LMEH_TAB {
+            bindings = <&mt LA(LS(LCTRL)) TAB>;
+            key-positions = <17 29>;
+        };
+
+        HYPHEN_RIGHT {
+            bindings = <&kp MINUS>;
+            key-positions = <19 7>;
+        };
+
+        EN-DASH {
+            bindings = <&kp LA(MINUS)>;
+            key-positions = <6 18>;
+        };
+
+        RMEH_BSLASH {
+            bindings = <&mt LS(LA(LCTRL)) BACKSLASH>;
+            key-positions = <18 30>;
+        };
+
+        DELETE_LEFT {
+            bindings = <&kp DEL>;
+            key-positions = <5 17>;
+            layers = <0>;
+        };
+
+        SPACE_LEFT {
+            bindings = <&kp SPACE>;
+            key-positions = <16 4>;
+        };
+
+        NUM_TOGGLE {
+            bindings = <&tog 2>;
+            key-positions = <0 12>;
+        };
+
+        ALT_RIGHT {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <19 31>;
+        };
+
+        GUI_RIGHT {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <20 32>;
+        };
+
+        CTRL_RIGHT {
+            bindings = <&mt RCTRL ESCAPE>;
+            key-positions = <21 33>;
+        };
+
+        BSLS_COMBO {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <22 34>;
+        };
+
+        ENTER_LEFT {
+            bindings = <&kp ENTER>;
+            key-positions = <3 15>;
+        };
+
+        ENTER_RIGHT {
+            bindings = <&kp ENTER>;
+            key-positions = <20 8>;
+        };
+
+        STAR_NUMPAD {
+            bindings = <&kp ASTERISK>;
+            key-positions = <5 17>;
+            layers = <2>;
+        };
     };
 
     keymap {
@@ -87,7 +174,7 @@
             >;
         };
 
-        symbol_layer {
+        numpad_layer {
             label = "NUMPAD";
             bindings = <
 &trans    &kp TAB    &kp N7  &kp N8  &kp N9  &kp FSLH               &kp HOME  &kp PG_DN  &kp PG_UP     &kp END       &kp LS(TILDE)  &trans
