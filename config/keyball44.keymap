@@ -30,24 +30,10 @@
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
 
 / {
-    macros {
-        word_select_layer2_macro {
-            compatible = "zmk,macro";
-            label = "WORD_SELECT_LAYER2_MACRO";
-            bindings = <&kp LSFT &kp LALT &mo 2>;
-        };
-    };
 
     // custom shift using mod-morph 
 
     behaviors {
-
-         word_select_layer2 {
-            compatible = "zmk,behavior-macro";
-            label = "WORD_SELECT_LAYER2";
-            #binding-cells = <0>;
-            macro-binding = <&wsl2>;
-        };
 
         cmqus: comma_question {
             compatible = "zmk,behavior-mod-morph";
