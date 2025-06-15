@@ -91,7 +91,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMPAD:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NLCK
   - $$mdi:keyboard-tab$$
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -136,7 +136,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
-  - KP NUMLOCK
+  - out
   - F1
   - F2
   - F3
