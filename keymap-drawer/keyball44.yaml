@@ -58,7 +58,7 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '&mt_ctrl_caps'
   - '!'
   - '@'
   - '#'
