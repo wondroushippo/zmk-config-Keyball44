@@ -61,6 +61,7 @@
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap-Caps";
         };
+    };
 };
 
 /**
