@@ -227,7 +227,7 @@
             label = "NUMPAD";
             bindings = <
 &kp KP_NLCK        &kp TAB    &kp N7  &kp N8  &kp N9  &kp FSLH               &kp HOME  &kp PG_DN  &kp PG_UP     &kp END       &kp LS(TILDE)  &kp DEL
-&&mt LCTRL ESCAPE  &kp N0     &kp N4  &kp N5  &kp N6  &kp DOT                &kp LEFT  &kp DOWN   &kp UP        &kp RIGHT     &kp LA(MINUS)  &kp PIPE
+&mt LCTRL ESCAPE   &kp N0     &kp N4  &kp N5  &kp N6  &kp DOT                &kp LEFT  &kp DOWN   &kp UP        &kp RIGHT     &kp LA(MINUS)  &kp PIPE
 &trans             &kp RET    &kp N1  &kp N2  &kp N3  &kp MINUS              &kp LBKT  &kp RBKT   &kp LS(LBRC)  &kp LS(RBRC)  &kp GRAVE      &mt RSHFT BSLH
 &kp PLUS           &kp EQUAL  &mo 3   &trans  &trans                 &trans  &trans                                                          &trans
             >;
