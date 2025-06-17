@@ -194,6 +194,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <9 21>;
         };
+
+        MEH_COMBO {
+            bindings = <&kp LS(LA(LCTRL))>;
+            key-positions - <36 37>;
+        };
     };
 
     keymap {
