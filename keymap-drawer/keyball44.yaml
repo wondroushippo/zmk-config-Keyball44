@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - Sft+Alt+$$mdi:apple-keyboard-command$$
+  - Sft+Alt+$$mdi:apple-keyboard-control$$
   - '&lm 2 LS(LALT)'
   - {t: '$$mdi:keyboard-return$$', h: SHORT}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -58,7 +58,7 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mt_ctrl_caps'
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - '!'
   - '@'
   - '#'
@@ -103,7 +103,7 @@ layers:
   - END
   - Sft+~
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '0', s: )}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -136,7 +136,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - OUT USB
   - F1
   - F2
   - F3
@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
-  - $$mdi:bluetooth-off$$
+  - OUT BLE
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
