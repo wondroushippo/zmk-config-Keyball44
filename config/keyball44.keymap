@@ -30,11 +30,9 @@
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
 
 / {
-
     // custom shift using mod-morph 
 
     behaviors {
-
         cmqus: comma_question {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_QUESTION";
@@ -51,9 +49,8 @@
             bindings = <&kp DOT>, <&kp SEMI>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
-         };
+        };
     };
-};
 
 /**
  * Temporarily switches to a layer (`&mo`) while a modifier is held.
@@ -263,3 +260,4 @@
             >;
         };
     };
+};
