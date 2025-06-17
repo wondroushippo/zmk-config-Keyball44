@@ -197,7 +197,7 @@
 
         MEH_COMBO {
             bindings = <&kp LS(LA(LCTRL))>;
-            key-positions - <36 37>;
+            key-positions = <36 37>;
         };
     };
 
