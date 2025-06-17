@@ -62,7 +62,6 @@
             display-name = "Mod-Tap-Caps";
         };
 };
-        };
 
 /**
  * Temporarily switches to a layer (`&mo`) while a modifier is held.
