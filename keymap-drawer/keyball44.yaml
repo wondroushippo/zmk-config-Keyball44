@@ -358,3 +358,5 @@ combos:
   l: [NUMPAD]
 - p: [9, 21]
   k: {t: '=', s: +}
+- p: [36, 37]
+  k: Sft+Alt+$$mdi:apple-keyboard-control$$
