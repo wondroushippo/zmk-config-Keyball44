@@ -39,9 +39,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Sft+Alt+$$mdi:apple-keyboard-control$$
   - '&lm 2 LS(LALT)'
-  - {t: '$$mdi:keyboard-return$$', h: SHORT}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: SHORT}
   - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
   - $$mdi:keyboard-space$$
   - MOUSE
@@ -58,7 +58,7 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
   - '#'
@@ -84,9 +84,9 @@ layers:
   - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - FUN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -129,9 +129,9 @@ layers:
   - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
   - +
   - {t: '=', s: +}
-  - FUN
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - FUN
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -174,9 +174,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
