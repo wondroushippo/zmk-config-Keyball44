@@ -155,17 +155,17 @@
         };
 
         ALT_RIGHT {
-            bindings = <&kp RIGHT_ALT>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <19 31>;
         };
 
         GUI_RIGHT {
-            bindings = <&kp RIGHT_GUI>;
+            bindings = <&kp LEFT_GUI>;
             key-positions = <20 32>;
         };
 
         CTRL_RIGHT {
-            bindings = <&mt RCTRL ESCAPE>;
+            bindings = <&mt LCTRL ESCAPE>;
             key-positions = <21 33>;
         };
 
@@ -247,9 +247,9 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &trans                   &trans        &trans     &trans     &trans        &trans        &to 0
-&trans  &tog 5     &mo 5      &mkp MB2         &mkp MB1     &mkp MB3                 &kp LEFT_GUI  &kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
-&trans  &tog 6     &mo 6      &kp LC(LS(TAB))  &kp LC(TAB)  &trans                   &trans        &trans     &trans     &trans        &trans        &trans
+&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &kp (LG(LS(S))           &trans        &trans            &trans     &trans        &trans        &to 0
+&trans  &tog 5     &mo 5      &mkp MB2         &mkp MB1     &mkp MB3                 &kp LEFT_GUI  &kp LSHFT         &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
+&trans  &tog 6     &mo 6      &kp LC(LS(TAB))  &kp LC(TAB)  &trans                   &kp LG(LEFT)  &kp LG(RIGHT)     &trans     &trans        &trans        &trans
 &trans  &trans     &trans     &mo 6            &mo 5                      &mkp RCLK  &mkp LCLK                                                       &trans
             >;
         };
