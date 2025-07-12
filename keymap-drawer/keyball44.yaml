@@ -186,7 +186,7 @@ layers:
   - Ctl+R
   - '&mkp MB4'
   - '&mkp MB5'
-  - (LG(LS(S))
+  - Gui+Sft+S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
