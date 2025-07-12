@@ -186,7 +186,7 @@ layers:
   - Ctl+R
   - '&mkp MB4'
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - (LG(LS(S))
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -211,8 +211,8 @@ layers:
   - Ctl+Sft+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -344,7 +344,7 @@ combos:
 - p: [19, 31]
   k: $$mdi:apple-keyboard-option$$
 - p: [20, 32]
-  k: RIGHT GUI
+  k: $$mdi:apple-keyboard-command$$
 - p: [21, 33]
   k: {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
 - p: [22, 34]
