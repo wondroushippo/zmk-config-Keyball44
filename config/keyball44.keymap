@@ -210,7 +210,7 @@
 &kp TAB               &kp Q           &kp W        &kp E                &kp R        &kp T                   &kp Y        &kp U  &kp I      &kp O    &kp P      &kp MINUS
 &mt LCTRL ESCAPE      &kp A           &kp S        &kp D                &kp F        &kp G                   &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
 &kp LEFT_SHIFT        &kp Z           &kp X        &kp C                &kp V        &kp B                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
-&kp LS(LA(LCTRL))     &lm 2 LS(LALT)  &lt 2 ENTER  &mt LCTRL BACKSPACE  &lt 1 ENTER                          &lt 2 ENTER  &kp SPACE                           &mo 4
+&kp LS(LA(LCTRL))     &lm 2 LS(LALT)  &lt 2 ENTER  &mt LCTRL BACKSPACE  &lt 1 ENTER                          &lt 2 ENTER  &kp SPACE                             &mo 4
             >;
         };
 
@@ -247,10 +247,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &kp LG(LS(S))            &trans        &trans            &trans     &trans        &trans        &to 0
-&trans  &tog 5     &mo 5      &mkp MB2         &mkp MB1     &mkp MB3                 &kp LEFT_GUI  &kp LSHFT         &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans
-&trans  &tog 6     &mo 6      &kp LC(LS(TAB))  &kp LC(TAB)  &trans                   &kp LG(LEFT)  &kp LG(RIGHT)     &trans     &trans        &trans        &trans
-&trans  &trans     &trans     &mo 6            &mo 5                      &mkp RCLK  &mkp LCLK                                                       &trans
+&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &kp LG(LS(S))            &trans        &trans            &trans      &trans        &trans        &to 0
+&trans  &tog 5     &mo 5      &mkp MB2         &mkp MB1     &mkp MB3                 &kp LEFT_GUI  &kp LSHFT         &kp LCTRL   &kp LEFT_ALT  &kp LEFT_GUI  &trans
+&trans  &tog 6     &mo 6      &kp LC(LS(TAB))  &kp LC(TAB)  &trans                   &kp LG(LEFT)  &kp LG(RIGHT)     &kp LA(UP)  &kp LA(DOWN)  &trans        &trans
+&trans  &trans     &trans     &mo 6            &mo 5                      &mkp RCLK  &mkp LCLK                                                 &trans
             >;
         };
 
