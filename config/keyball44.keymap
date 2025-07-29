@@ -93,24 +93,55 @@
     combos {
         compatible = "zmk,combos";
 
-        default_bootloader_r {
-            bindings = <&bootloader>;
-            key-positions = <10 11 6 7>;
-        };
-
         default_bootloader_l {
             bindings = <&bootloader>;
             key-positions = <0 1 4 5>;
         };
 
-        ALT_LEFT {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <16 28>;
+        default_bootloader_r {
+            bindings = <&bootloader>;
+            key-positions = <10 11 6 7>;
         };
 
         GUI_LEFT {
             bindings = <&kp LEFT_GUI>;
             key-positions = <3 15>;
+        };
+
+        SPACEALT_LEFT {
+            bindings = <&mt LALT SPACE>;
+            key-positions = <4 16>;
+        };
+
+        DELETE_LEFT {
+            bindings = <&kp DEL>;
+            key-positions = <5 17>;
+            layers = <0>;
+        };
+
+        EN-DASH {
+            bindings = <&kp LA(MINUS)>;
+            key-positions = <6 18>;
+        };
+
+        HYPHEN_RIGHT {
+            bindings = <&mt LALT MINUS>;
+            key-positions = <7 19>;
+        };
+
+        GUI_RIGHT {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <8 20>;
+        };
+
+        PLUS_COMBO {
+            bindings = <&mt LCTRL LS(EQUAL)>;
+            key-positions = <9 21>;
+        };
+
+        MINUS_COMBO {
+            bindings = <&kp EQUAL>;
+            key-positions = <11 23>;
         };
 
         CTRL_LEFT {
@@ -123,45 +154,14 @@
             key-positions = <17 29>;
         };
 
-        HYPHEN_RIGHT {
-            bindings = <&kp MINUS>;
-            key-positions = <19 7>;
-        };
-
-        EN-DASH {
-            bindings = <&kp LA(MINUS)>;
-            key-positions = <6 18>;
-        };
-
         RMEH_BSLASH {
             bindings = <&mt LS(LA(LCTRL)) BACKSLASH>;
             key-positions = <18 30>;
         };
 
-        DELETE_LEFT {
-            bindings = <&kp DEL>;
-            key-positions = <5 17>;
-            layers = <0>;
-        };
-
-        SPACEALT_LEFT {
-            bindings = <&mt LALT SPACE>;
-            key-positions = <4 16>;
-        };
-
         NUM_TOGGLE {
             bindings = <&tog 2>;
-            key-positions = <0 12>;
-        };
-
-        ALT_RIGHT {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <19 31>;
-        };
-
-        GUI_RIGHT {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <20 8>;
+            key-positions = <0 1>;
         };
 
         GDOCSMENU_ESC {
@@ -169,20 +169,10 @@
             key-positions = <21 33>;
         };
 
-        BSLS_COMBO {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <22 34>;
-        };
-
         STAR_NUMPAD {
             bindings = <&kp ASTERISK>;
             key-positions = <5 17>;
             layers = <2>;
-        };
-
-        EQUAL_COMBO {
-            bindings = <&mt LCTRL EQUAL>;
-            key-positions = <9 21>;
         };
 
         MEH_COMBO {
