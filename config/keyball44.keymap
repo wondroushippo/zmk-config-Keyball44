@@ -110,7 +110,7 @@
 
         GUI_LEFT {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <27 15>;
+            key-positions = <3 15>;
         };
 
         CTRL_LEFT {
@@ -144,9 +144,9 @@
             layers = <0>;
         };
 
-        SPACE_LEFT {
-            bindings = <&kp SPACE>;
-            key-positions = <16 4>;
+        SPACEALT_LEFT {
+            bindings = <&mt LALT SPACE>;
+            key-positions = <4 16>;
         };
 
         NUM_TOGGLE {
@@ -161,27 +161,17 @@
 
         GUI_RIGHT {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <20 32>;
+            key-positions = <20 8>;
         };
 
-        CTRL_RIGHT {
-            bindings = <&mt LCTRL ESCAPE>;
+        GDOCSMENU_ESC {
+            bindings = <&mt LA(LGUI) ESCAPE>;
             key-positions = <21 33>;
         };
 
         BSLS_COMBO {
             bindings = <&kp BACKSLASH>;
             key-positions = <22 34>;
-        };
-
-        ENTER_LEFT {
-            bindings = <&kp ENTER>;
-            key-positions = <3 15>;
-        };
-
-        ENTER_RIGHT {
-            bindings = <&kp ENTER>;
-            key-positions = <20 8>;
         };
 
         STAR_NUMPAD {
@@ -191,7 +181,7 @@
         };
 
         EQUAL_COMBO {
-            bindings = <&kp EQUAL>;
+            bindings = <&mt LCTRL EQUAL>;
             key-positions = <9 21>;
         };
 
