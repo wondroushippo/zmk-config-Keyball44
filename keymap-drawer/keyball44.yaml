@@ -316,43 +316,39 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
 combos:
-- p: [10, 11, 6, 7]
-  k: $$mdi:progress-download$$
 - p: [0, 1, 4, 5]
   k: $$mdi:progress-download$$
-- p: [16, 28]
-  k: $$mdi:apple-keyboard-option$$
+- p: [10, 11, 6, 7]
+  k: $$mdi:progress-download$$
 - p: [3, 15]
   k: $$mdi:apple-keyboard-command$$
+- p: [4, 16]
+  k: {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
+- p: [5, 17]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [QWRT]
+- p: [6, 18]
+  k: Alt+-
+- p: [7, 19]
+  k: {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
+- p: [8, 20]
+  k: $$mdi:apple-keyboard-command$$
+- p: [9, 21]
+  k: {t: Sft+=, h: '$$mdi:apple-keyboard-control$$', s: Sft++}
+- p: [11, 23]
+  k: {t: '=', s: +}
 - p: [14, 26]
   k: {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
 - p: [17, 29]
   k: {t: '$$mdi:keyboard-tab$$', h: 'Alt+Sft+$$mdi:apple-keyboard-control$$'}
-- p: [19, 7]
-  k: {t: '-', s: _}
-- p: [6, 18]
-  k: Alt+-
 - p: [18, 30]
   k: {t: \, h: 'Sft+Alt+$$mdi:apple-keyboard-control$$', s: '|'}
-- p: [5, 17]
-  k: $$mdi:backspace-reverse-outline$$
-  l: [QWRT]
-- p: [4, 16]
-  k: {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-- p: [0, 12]
+- p: [0, 1]
   k: {t: NUMPAD, h: toggle}
-- p: [19, 31]
-  k: $$mdi:apple-keyboard-option$$
-- p: [20, 8]
-  k: $$mdi:apple-keyboard-command$$
 - p: [21, 33]
   k: {t: '$$mdi:keyboard-esc$$', h: Alt+LGUI}
-- p: [22, 34]
-  k: {t: \, s: '|'}
 - p: [5, 17]
   k: '*'
   l: [NUMPAD]
-- p: [9, 21]
-  k: {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
 - p: [36, 37]
   k: Sft+Alt+$$mdi:apple-keyboard-control$$
