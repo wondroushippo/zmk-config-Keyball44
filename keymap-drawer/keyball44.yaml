@@ -322,7 +322,7 @@ combos:
   k: $$mdi:progress-download$$
 - p: [16, 28]
   k: $$mdi:apple-keyboard-option$$
-- p: [27, 15]
+- p: [3, 15]
   k: $$mdi:apple-keyboard-command$$
 - p: [14, 26]
   k: {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -337,26 +337,22 @@ combos:
 - p: [5, 17]
   k: $$mdi:backspace-reverse-outline$$
   l: [QWRT]
-- p: [16, 4]
-  k: $$mdi:keyboard-space$$
+- p: [4, 16]
+  k: {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
 - p: [0, 12]
   k: {t: NUMPAD, h: toggle}
 - p: [19, 31]
   k: $$mdi:apple-keyboard-option$$
-- p: [20, 32]
+- p: [20, 8]
   k: $$mdi:apple-keyboard-command$$
 - p: [21, 33]
-  k: {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  k: {t: '$$mdi:keyboard-esc$$', h: Alt+LGUI}
 - p: [22, 34]
   k: {t: \, s: '|'}
-- p: [3, 15]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [20, 8]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [5, 17]
   k: '*'
   l: [NUMPAD]
 - p: [9, 21]
-  k: {t: '=', s: +}
+  k: {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
 - p: [36, 37]
   k: Sft+Alt+$$mdi:apple-keyboard-control$$
