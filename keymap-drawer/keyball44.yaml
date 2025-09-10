@@ -352,3 +352,5 @@ combos:
   l: [NUMPAD]
 - p: [36, 37]
   k: Sft+Alt+$$mdi:apple-keyboard-control$$
+- p: [34, 43]
+  k: {t: MOUSE, h: toggle}

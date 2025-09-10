@@ -593,6 +593,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 </g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="784" y="196" class="combo tap layer-activator">MOUSE</text>
+</a><text x="784" y="207" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 370)" class="layer-SHORT">
@@ -911,6 +917,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="154" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="784" y="196" class="combo tap layer-activator">MOUSE</text>
+</a><text x="784" y="207" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1248,6 +1260,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 </g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="784" y="196" class="combo tap layer-activator">MOUSE</text>
+</a><text x="784" y="207" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1110)" class="layer-FUN">
@@ -1574,6 +1592,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="154" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="784" y="196" class="combo tap layer-activator">MOUSE</text>
+</a><text x="784" y="207" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1902,6 +1926,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="784" y="196" class="combo tap layer-activator">MOUSE</text>
+</a><text x="784" y="207" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1850)" class="layer-SCROLL">
@@ -2213,6 +2243,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="154" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="784" y="196" class="combo tap layer-activator">MOUSE</text>
+</a><text x="784" y="207" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2220)" class="layer-SNIPE">
@@ -2523,6 +2559,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="154" y="190" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="194" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="784" y="196" class="combo tap layer-activator">MOUSE</text>
+</a><text x="784" y="207" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
