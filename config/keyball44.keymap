@@ -179,6 +179,12 @@
             bindings = <&kp LS(LA(LCTRL))>;
             key-positions = <36 37>;
         };
+
+        MOUSE_TOGGLE {
+            bindings = <&tog 4>;
+            key-positions = <34 43>;
+        };
+
     };
 
     keymap {
