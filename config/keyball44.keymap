@@ -264,8 +264,8 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &kp LG(LS(S))            &mkp MB3      &mkp MB1          &mkp MB2    &mkp MB4      &mkp MB5      &mo 5
-&trans  &tog 5     &mo 5      &mkp MB2         &mkp MB1     &mkp MB3                 &kp LEFT_GUI  &kp LSHFT         &kp LCTRL   &kp LEFT_ALT  &kp LEFT_GUI  &mo 6
+&trans  &kp LC(W)  &kp LC(R)  &mkp MB4         &mkp MB5     &kp LG(LS(S))            &mkp MB3      &mkp MB1          &mkp MB2    &mkp MB4      &mkp MB5      &mo 6
+&trans  &tog 5     &mo 5      &mkp MB2         &mkp MB1     &mkp MB3                 &kp LEFT_GUI  &kp LSHFT         &kp LCTRL   &kp LEFT_ALT  &kp LEFT_GUI  &mo 5
 &trans  &tog 6     &mo 6      &kp LC(LS(TAB))  &kp LC(TAB)  &trans                   &kp LG(LEFT)  &kp LG(RIGHT)     &kp LA(UP)  &kp LA(DOWN)  &trans        &trans
 &trans  &trans     &trans     &mo 6            &mo 5                      &mkp RCLK  &mkp LCLK                                                 &trans
             >;
