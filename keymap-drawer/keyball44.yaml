@@ -187,12 +187,12 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - Gui+Sft+S
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWRT, h: toggle}
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - SCROLL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: SCROLL, h: toggle}
   - SCROLL
@@ -204,7 +204,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SNIPE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: SNIPE, h: toggle}
   - SNIPE
@@ -237,10 +237,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: SCROLL, h: toggle}
-  - {type: held}
+  - {type: held alternate}
   - '&mkp MB2'
   - '&mkp MB1'
   - '&mkp MB3'
@@ -294,10 +294,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: SNIPE, h: toggle}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -354,3 +354,16 @@ combos:
   k: Sft+Alt+$$mdi:apple-keyboard-control$$
 - p: [34, 43]
   k: {t: MOUSE, h: toggle}
+- p: [41, 42]
+  k: '&mkp MB3'
+  l: [MOUSE]
+- p: [30, 32]
+  k: {t: '[', s: '{'}
+- p: [30, 33]
+  k: {t: ']', s: '}'}
+- p: [31, 32]
+  k: '{'
+- p: [31, 33]
+  k: '}'
+- p: [10, 22]
+  k: $$mdi:keyboard-tab$$
