@@ -134,8 +134,8 @@
             key-positions = <8 20>;
         };
 
-        PLUS_COMBO {
-            bindings = <&mt LCTRL LS(EQUAL)>;
+        CTRL_TAB_COMBO {
+            bindings = <&mt LCTRL TAB>;
             key-positions = <9 21>;
         };
 
@@ -211,8 +211,8 @@
             key-positions = <31 33>;
         };
 
-        right_tab {
-            bindings = <&kp TAB>;
+        combo_equal {
+            bindings = <&kp LS(EQUAL)>;
             key-positions = <10 22>;
         };
 
