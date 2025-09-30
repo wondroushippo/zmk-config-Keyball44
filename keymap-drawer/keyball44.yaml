@@ -334,7 +334,7 @@ combos:
 - p: [8, 20]
   k: $$mdi:apple-keyboard-command$$
 - p: [9, 21]
-  k: {t: Sft+=, h: '$$mdi:apple-keyboard-control$$', s: Sft++}
+  k: {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
 - p: [11, 23]
   k: {t: '=', s: +}
 - p: [14, 26]
@@ -366,4 +366,4 @@ combos:
 - p: [31, 33]
   k: '}'
 - p: [10, 22]
-  k: $$mdi:keyboard-tab$$
+  k: {h: '=', s: +}
