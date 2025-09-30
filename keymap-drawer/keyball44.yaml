@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - Sft+Alt+$$mdi:apple-keyboard-control$$
+  - '&mkp MB1'
   - '&lm 2 LS(LALT)'
   - {t: '$$mdi:keyboard-return$$', h: NUMPAD}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
